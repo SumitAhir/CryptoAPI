@@ -19,7 +19,7 @@
 
         <h1>Bleutrade</h1>
         <h2>BTC Markets</h2>
-       <div ng-repeat="market in markets | filter:{BaseCurrency : 'BTC'}" class="col-md-6">
+       <div ng-repeat="market in markets | filter:'Btc'" class="col-md-6">
           <div class="thumbnail">
 			<h4>{{ market.MarketCurrency }}</h4>
         
